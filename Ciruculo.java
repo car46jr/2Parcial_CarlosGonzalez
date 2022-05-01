@@ -8,13 +8,18 @@ public class Ciruculo extends Clase1 {
     public Ciruculo(int r) {
         this.r = r;
     }
-    
-    public double resultado(double base){
+     @Override
+    public double resultado3(double base){
      int area= (int)((int) Math.PI * Math.pow(base, 2));
      return area;}
     
-    @Override
-    public double resultado(double r, double base){
+    /**
+     *
+     * @param base
+     * @param g
+     * @return
+     */
+    public double resultado3( double base, int g){
      int perimetro= (int) (2*Math.PI*base);
      return perimetro;
 }

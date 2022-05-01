@@ -11,14 +11,20 @@ public class Rectangulo extends Clase1 {
         this.altura = altura;
     }
 
- @Override
-    public double resultado1(double base,int altura){
+    /**
+     *
+     * @param base
+     * @param altura
+     * @param j
+     * @return
+     */
+    public double resultado4(double base,int altura, int j){
         int area= (int) (base *altura);
         return area;
         
     }
  @Override
-    public double resultado(int base,int altura){
+    public double resultado4(int base,int altura){
         int perimetro= 2*(base+altura);
         return perimetro;
 }

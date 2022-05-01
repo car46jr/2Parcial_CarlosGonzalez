@@ -32,7 +32,7 @@ public class Parcial2 {
 				case 1 -> {
                                   System.out.println("Introduce la altura :");
                                     num1 = Integer.parseInt(scanner.nextLine());
-                                    System.out.println("\n El area del Cuadrado es: " + figura.resultado(num1));
+                                    System.out.println("\n El area del Cuadrado es: " + figura.resultado1(num1));
                                     System.out.println("\n El perimetro del cuadrado es: " + figura.resultado(num1));
                                   break;
                                 }
@@ -44,8 +44,8 @@ public class Parcial2 {
                                 System.out.println("Introduce la H:");
                                 num3 = Integer.parseInt(scanner.nextLine());
                                 
-                                System.out.println("\n El area del triangulo es: " + figura.resultado1(num2, num1));
-                                System.out.println("\n El perimetro del triangulo es: " + figura.resultado(num1, num2, num3));
+                                System.out.println("\n El area del triangulo es: " + figura.resultado2(num2, num1));
+                                System.out.println("\n El perimetro del triangulo es: " + figura.resultado2(num1, num2, num3));
                                   break;
                                 
                                 }
@@ -54,8 +54,8 @@ public class Parcial2 {
                                 num1 = Integer.parseInt(scanner.nextLine());
                                
                                 
-                                System.out.println("\n El area del circulo es: " + figura.resultado1(num1));
-                                System.out.println("\n El perimetro del circulo es: " + figura.resultado(num1, num1));
+                                System.out.println("\n El area del circulo es: " + figura.resultado3(num1));
+                                System.out.println("\n El perimetro del circulo es: " + figura.resultad3(num1, num1));
                                   break;
                                 }                              
                                 case 4 -> {
@@ -64,12 +64,21 @@ public class Parcial2 {
                                 System.out.println("Introduce la base:");
                                 num2 = Integer.parseInt(scanner.nextLine());
                                 
-                                System.out.println("\n El area del rectangulo es: " + figura.resultado1(num2, num1));
-                                System.out.println("\n El perimetro del rectangulo es: " + figura.resultado(num2, num1));
+                                System.out.println("\n El area del rectangulo es: " + figura.resultado4(num2, num1));
+                                System.out.println("\n El perimetro del rectangulo es: " + figura.resultado4(num2, num1));
                                   break;
                                 }
 				case 5 -> {
-                                   
+                                    System.out.println("Introduce la arista :");
+                                num1 = Integer.parseInt(scanner.nextLine());
+                                System.out.println("Introduce la primera diagonal:");
+                                num2 = Integer.parseInt(scanner.nextLine());
+                                  System.out.println("Introduce la segunda diagonal");
+                                num3 = Integer.parseInt(scanner.nextLine());
+                                
+                                System.out.println("\n El area del rombo es: " + figura.resultado5(num2,num3));
+                                System.out.println("\n El perimetro del rombo es: " + figura.resultado5(resultado, num1, num1));
+                                  break;
                                 }
 				case 6 -> {
                                    
