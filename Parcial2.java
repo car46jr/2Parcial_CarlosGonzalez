@@ -105,7 +105,11 @@ public class Parcial2 {
                                   break;
                                 }
                                  case 8 ->{
-                                
+                                System.out.println("Introduce la altura :");
+                                    num1 = Integer.parseInt(scanner.nextLine());
+                                    System.out.println("\n El area del Cuadrado es: " + figura.resultado8(num1));
+                                    System.out.println("\n El perimetro del cuadrado es: " + figura.resultados8(num1));
+                                    break;
                                 }
 				
                                 }

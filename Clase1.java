@@ -73,7 +73,17 @@ public class Clase1 {
         var perimetro= (base*numeroLados);
         return perimetro;
 }
-
+   // Cubo
+     public double resultado8(double base){
+        int area= (int) (6 * Math.pow(base, 2));
+        return area;
+        
+    }
+    public double resultados8(int base){
+        int perimetro= base* base* base;
+        return perimetro;
+}
+    
     public double getBase() {
         return base;
     }
