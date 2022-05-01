@@ -5,11 +5,12 @@ import java.util.Scanner;
 public class Parcial2 {
     static Scanner scanner = new Scanner(System.in); //Sirve para recoger texto por consola
     static int select = -1; //opción elegida del usuario
-    static int num1 = 0, num2 = 0; //Variables
+    static int num1 = 0, num2 = 0, num3=0; //Variables
     private static double resultado;
     
     public static void main(String[] args) {
     Clase1 figura=new Clase1();
+ 
         //Mientras la opción elegida sea 0, preguntamos al usu
 		while(select != 0){
 			//Try catch para evitar que el programa termine si hay un error
@@ -36,10 +37,17 @@ public class Parcial2 {
                                   break;
                                 }
 				case 2 -> {
-                                        System.out.println("Introduce la altura :");
+                                System.out.println("Introduce la altura :");
                                 num1 = Integer.parseInt(scanner.nextLine());
                                 System.out.println("Introduce la base:");
-                                num2 = Integer.parseInt(scanner.nextLine()); 
+                                num2 = Integer.parseInt(scanner.nextLine());
+                                System.out.println("Introduce la H:");
+                                num3 = Integer.parseInt(scanner.nextLine());
+                                
+                                System.out.println("\n El area del Cuadrado es: " + figura.resultado1(num2, num1));
+                                System.out.println("\n El perimetro del cuadrado es: " + figura.resultado(num1, num2, num3));
+                                  break;
+                                
                                 }
                                 case 3 ->{
                                     
