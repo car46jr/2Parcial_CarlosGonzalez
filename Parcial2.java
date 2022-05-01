@@ -44,13 +44,19 @@ public class Parcial2 {
                                 System.out.println("Introduce la H:");
                                 num3 = Integer.parseInt(scanner.nextLine());
                                 
-                                System.out.println("\n El area del Cuadrado es: " + figura.resultado1(num2, num1));
-                                System.out.println("\n El perimetro del cuadrado es: " + figura.resultado(num1, num2, num3));
+                                System.out.println("\n El area del triangulo es: " + figura.resultado1(num2, num1));
+                                System.out.println("\n El perimetro del triangulo es: " + figura.resultado(num1, num2, num3));
                                   break;
                                 
                                 }
                                 case 3 ->{
-                                    
+                                System.out.println("Introduce el radio del ciruculo  :");
+                                num1 = Integer.parseInt(scanner.nextLine());
+                               
+                                
+                                System.out.println("\n El area del circulo es: " + figura.resultado1(num1));
+                                System.out.println("\n El perimetro del circulo es: " + figura.resultado(num1, num1));
+                                  break;
                                 }                              
                                 case 4 -> {
                                    

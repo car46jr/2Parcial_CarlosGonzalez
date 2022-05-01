@@ -6,8 +6,7 @@ public class Clase1 {
     public double base;
     public int altura;
     
-    //metodos 
-    //Cuadrado
+
     public double resultado1(double base){
         int area= (int) (base *base);
         return area;
@@ -25,6 +24,15 @@ public class Clase1 {
     public double resultado(int base, int altura, int his){
         int perimetro= base*altura*his;
         return perimetro;
+}
+  //Circulo
+     public double resultado1(double r, double base){
+     int area= (int)((int) Math.PI * Math.pow(base, 2));
+     return area;}
+    
+    public double resultado(double r, double base){
+     int perimetro= (int) (2*Math.PI*base);
+     return perimetro;
 }
     
     public double getBase() {
