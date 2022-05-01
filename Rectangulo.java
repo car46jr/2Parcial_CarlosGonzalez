@@ -25,7 +25,7 @@ public class Rectangulo extends Clase1 {
     }
  @Override
     public double resultado4(int base,int altura){
-        int perimetro= 2*(base+altura);
+        int perimetro= (base+altura*2);
         return perimetro;
 }
 

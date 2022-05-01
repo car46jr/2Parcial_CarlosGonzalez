@@ -41,8 +41,8 @@ public class Clase1 {
  
     }
 
-    public double resultado4(int base,int altura, int j){
-        var perimetro= 2*(base+altura);
+    public double resultador(int base,int altura){
+        var perimetro= ((base+altura*2));
         return perimetro;
 }
     
@@ -54,6 +54,15 @@ public class Clase1 {
     public double resultado5(double base,int altura, int d1){
      int perimetro= (4*altura);
      return perimetro;
+}
+    // Paralelogramo
+     public double resultado6(double base,int altura){
+        int area= (int) (base *altura);
+        return area;
+     }
+    public double resultados(int base,int altura){
+        var perimetro= ((base+altura)*2);
+        return perimetro;
 }
     public double getBase() {
         return base;
