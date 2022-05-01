@@ -23,6 +23,8 @@ public class Parcial2 {
                                   4- Rectangulo
                                   5- Rombo
                                   6- Paralelogramo
+                                  7- Poligono
+                                  8- Cubo
                                   0- Salir """);
 				//Recoger una variable por consola
 				select = Integer.parseInt(scanner.nextLine()); 
@@ -89,6 +91,21 @@ public class Parcial2 {
                                 System.out.println("\n El area del paralelogramo es: " + figura.resultado6(num2, num1));
                                 System.out.println("\n El perimetro del paralelgramo es: " + figura.resultados(num2, num1));
                                   break;
+                                }
+                                case 7 ->{
+                                System.out.println("Introduce la altura :");
+                                num1 = Integer.parseInt(scanner.nextLine());
+                                System.out.println("Introduce la base:");
+                                num2 = Integer.parseInt(scanner.nextLine());
+                                System.out.println("Introduce el numero de lados:");
+                                num3 = Integer.parseInt(scanner.nextLine());
+                                
+                                System.out.println("\n El area del poligono es: " + figura.resultado7(num2, num1));
+                                System.out.println("\n El perimetro del poligono es: " + figura.resultados7(num2, num3));
+                                  break;
+                                }
+                                 case 8 ->{
+                                
                                 }
 				
                                 }

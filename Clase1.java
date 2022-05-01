@@ -64,6 +64,16 @@ public class Clase1 {
         var perimetro= ((base+altura)*2);
         return perimetro;
 }
+    //Poligono
+     public double resultado7(double base,int altura){
+        int area= (int) ((base *altura)/2);
+        return area;
+    }
+   public double resultados7(int base,int numeroLados){
+        var perimetro= (base*numeroLados);
+        return perimetro;
+}
+
     public double getBase() {
         return base;
     }
