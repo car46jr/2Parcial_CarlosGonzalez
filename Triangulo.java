@@ -20,4 +20,21 @@ public class Triangulo extends Clase1 {
         int perimetro= base*altura*his;
         return perimetro;
 }
+
+    public double getHis() {
+        return his;
+    }
+
+    public void setHis(double his) {
+        this.his = his;
+    }
+
+    public int getA() {
+        return a;
+    }
+
+    public void setA(int a) {
+        this.a = a;
+    }
+    
 }

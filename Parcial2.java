@@ -59,7 +59,14 @@ public class Parcial2 {
                                   break;
                                 }                              
                                 case 4 -> {
-                                   
+                                System.out.println("Introduce la altura :");
+                                num1 = Integer.parseInt(scanner.nextLine());
+                                System.out.println("Introduce la base:");
+                                num2 = Integer.parseInt(scanner.nextLine());
+                                
+                                System.out.println("\n El area del rectangulo es: " + figura.resultado1(num2, num1));
+                                System.out.println("\n El perimetro del rectangulo es: " + figura.resultado(num2, num1));
+                                  break;
                                 }
 				case 5 -> {
                                    
